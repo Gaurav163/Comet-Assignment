@@ -470,7 +470,7 @@ router.route("/commitowner10").post(async (req, res) => {
 })
 
 
-router.route("/stargazersgt2").post(async (req, res) => {
+router.route("/stargazerseq2").post(async (req, res) => {
     try {
         const token = req.headers["x-github-token"];
         let username = req.headers["x-username"];
